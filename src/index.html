@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electron Screen Recorder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="render.js"></script>
+  </head>
+  <body>
+    <section class="hero is-fullheight">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title is-2">⚡ Electron Screen Recorder</h1>
+
+          <!-- Video Display -->
+          <div class="video-container">
+            <video id="videoPreview" autoplay></video>
+          </div>
+
+          <!-- Control Buttons -->
+          <div class="buttons is-centered">
+            <button id="startBtn" class="button is-success is-medium">
+              <span class="icon">
+                <i class="fas fa-play"></i>
+              </span>
+              <span>Start Recording</span>
+            </button>
+
+            <button id="stopBtn" class="button is-danger is-medium" disabled>
+              <span class="icon">
+                <i class="fas fa-stop"></i>
+              </span>
+              <span>Stop Recording</span>
+            </button>
+          </div>
+
+          <!-- Select Video Source -->
+          <button id="videoSelectBtn" class="button is-info is-light is-medium">
+            <span class="icon">
+              <i class="fas fa-tv"></i>
+            </span>
+            <span>Choose a Video Source</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

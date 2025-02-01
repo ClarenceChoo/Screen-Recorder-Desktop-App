@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1e1e2e, #282a36);
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+/* Centering Content */
+.hero-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Video Container */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+video {
+  width: 80%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  border: 3px solid #007bff;
+  background-color: black;
+}
+
+/* Buttons */
+.button {
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.button.is-success {
+  background-color: #27ae60;
+  border: 2px solid #218c54;
+  color: white;
+}
+
+.button.is-success:hover {
+  background-color: #1e8449;
+  border-color: #166e3b;
+}
+
+.button.is-danger {
+  background-color: #e74c3c;
+  border: 2px solid #c0392b;
+  color: white;
+}
+
+.button.is-danger:hover {
+  background-color: #c0392b;
+  border-color: #962d22;
+}
+
+.button.is-info {
+  background-color: transparent;
+  border: 2px solid #3498db;
+  color: #3498db;
+}
+
+.button.is-info:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Button Layout */
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
