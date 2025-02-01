@@ -19,7 +19,7 @@ This app allows users to **record their screen**, select a **specific window or 
 
 ### 📌 **1. Clone the Repository**
 
-- git clone https://github.com/YOUR_GITHUB_USERNAME/electron-screen-recorder.git
+- git clone https://github.com/ClarenceChoo/Screen-Recorder-Desktop-App.git
 - cd electron-screen-recorder
 
 ### 📌 **2. Install Dependencies**
